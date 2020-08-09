@@ -1,5 +1,5 @@
 def new_hash
-  list.each_with_object({}) { |g,h| h[g["id"]] = g["name"] }
+  new_hash = {}
 end
 
 def actor
